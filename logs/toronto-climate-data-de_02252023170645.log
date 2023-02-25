@@ -1,0 +1,37 @@
+--2023-02-25 17:06:4--2023-02-25 17:06:45--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2020&Month=2&Day=14&timeframe=1&submResolving climate.weResolving climate.weather.gc.ca (climat205.189.10.46
+Connecting to clima
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|20connected.
+HTTP request sent, aHTTP request sent, a200 OK
+Length: unspecified Length: unspecified [applicatSaving to: ‘/UsersSaving to: ‘/Users/apple/Desktop/DataEngineeringBootCamp/1-Linux/MiniProject/Toronto-Climate-Data-DE/input/en_climate_hourly_ON_6158359
+     0K .......... .......... .......... .......... ..........  521K
+    50K .....  521K
+    50K .......... . .......... .......... 1.07M
+   100K .......... .......... .......                          18.6M=0.1s
+
+2023-02-25 17:06:47 2023-02-25 17:06:47 (893 KB/s) - ‘/Users/apple/Desktop/DataEngineeringBootCamp/1-Linux/MiniProject/Toronto-Climate-Data-DE/input/en_climate_hourly_ON_6158359_02-2020_P1H.csv--2023-02-25 17:06:4--2023-02-25 17:06:47--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2021&Month=2&Day=14&timeframe=1&submResolving climate.weResolving climate.weather.gc.ca (climat205.189.10.46
+Connec205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|20connected.
+HTTP request sent, aHTTP request sent, a200 OK
+Length: unspecified Length: unspecified [applicatSaving to: ‘/UsersSaving to: ‘/Users/apple/Desktop/DataEngineeringBootCamp/1-Linux/MiniProject/Toronto-Climate-Data-DE/input/en_climate_hourly_ON_6158359
+     0K .......... .......... .......... .......... ..........  525K
+    50K .....  525K
+   ...... .......... .......... .......... 1.03M
+   100K ..... 1.0. .......... ...                              19.5M=0.1s
+
+2023-02-25 17:06:47 2023-02-25 17:06:47 (860 KB/s) - ‘/Users/apple/Desktop/DataEngineeringBootCamp/1-Linux/MiniProject/Toronto-Climate-Data-DE/input/en_climate_hourly_ON_6158359_02-2021_P1H.csv--2023-02-25 17:06:4--2023-02-25 17:06:47--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2022&Month=2&Day=14&timeframe=1&submResolving climate.weResolving climate.weather.gc.ca (climat205.189.10.46
+Connec205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|20connected.
+HTTP request sent, aHTTP request sent, a200 OK
+Length: unspecified Length: unspecified [applicatSaving to: ‘/UsersSaving to: ‘/Users/apple/Desktop/DataEngineeringBootCamp/1-Linux/MiniProject/Toronto-Climate-Data-DE/input/en_climate_hourly_ON_6158359
+     0K .......... .......... .......... .......... ..........  526K
+    50K .......... .......... .......... .......... .......... 1.01M
+   100K .......... .......... ...                              39.6M=0.1s
+
+2023-02-25 17:06:48 2023-02-25 17:06:48 (858 KB/s) - ‘/Users/apple/Desktop/DataEngineeringBootCamp/1-Linux/MiniProject/Toronto-Climate-Data-DE/input/en_climate_hourly_ON_6158359_02-2022_P1H.csv’ saved [126636]
+
+Start to run Python Script
+(696, 30)
+(672, 30)
+(672, 30)
+are the count equal? 2040 2040
+PROGRAM SUCCEEDED
