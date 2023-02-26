@@ -26,27 +26,30 @@ exec 2> >(tee ${LOG_FILE})
 # DOWNLOAD DATA
 echo "Start download data"
 
-for year in {2020..2022}; # or use (seq 2019 2022)
+for year in {2020..2022}; 
 do wget --content-disposition "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=${year}&Month=2&Day=14&timeframe=1&submit= Download+Data" -P ${INPUT_FOLDER};
 done;
 
 RC1=$?
-if [ ${RC1} != 0 ]; then
+if [ ${RC1} != 0 ];
+then
 	echo "DOWNLOAD DATA FAILED"
 	echo "[ERROR:] RETURN CODE:  ${RC1}"
 	echo "[ERROR:] REFER TO THE LOG FOR THE REASON FOR THE FAILURE."
 	exit 1
 fi
 
-###${RC1} = 0 means sucessful running the script
 #########################################################
 # RUN PYTHON
+echo 'Install necessary Python Libraries'
+pipenv install
 echo "Start to run Python Script"
-python3 ${SCRIPTS_FOLDER}/${PYTHON_SCRIPT}
+pipenv run python3 ${SCRIPTS_FOLDER}/${PYTHON_SCRIPT}
 
 
 RC1=$?
-if [ ${RC1} != 0 ]; then
+if [ ${RC1} != 0 ];
+then
 	echo "PYTHON RUNNING FAILED"
 	echo "[ERROR:] RETURN CODE:  ${RC1}"
 	echo "[ERROR:] REFER TO THE LOG FOR THE REASON FOR THE FAILURE."
